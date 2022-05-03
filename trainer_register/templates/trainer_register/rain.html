@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    <link rel="shortcut icon" href="{% static 'trainer_register/images/favicon.ico' %}" type="image/x-icon">
+    <link rel="icon" href="{% static 'trainer_register/images/favicon.ico' %}">
+    <audio loop id="audio">
+        <source type="audio/mp3" src="{% static 'trainer_register/audio/rain.mp3' %}">
+        Your browser does not support the audio element.
+    </audio>
+    <iframe src="{% static 'trainer_register/audio/rain.mp3' %}" allow="autoplay" id="audio" style="display: none"></iframe>
+    <div class="rain front-row"></div>
+    <div class="rain back-row"></div>
+    <div class="toggles">
+        <div class="splat-toggle toggle active">SPLAT</div>
+    </div>
+    <link rel="stylesheet" type="text/css" href="{% static 'trainer_register/css/bootstrap.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'trainer_register/css/rain.css' %}"/>
+    <script type="text/javascript" src="{% static '/trainer_register/js/jquery.js '%}"></script>
+    <script type="text/javascript" src="{% static '/trainer_register/js/rain.js '%}"></script>
+    <title>Rain!</title>
+</html>
