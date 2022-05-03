@@ -1,10 +1,9 @@
 # Django-CRUD-Application
 Simple CRUD application written using Django 4.0
 
+## Overview
 ![My Remote Image](https://github.com/ThrillSeeker01/Django-CRUD-Application/blob/master/trainer_register/static/trainer_register/images/Screen1.png)
 ![My Remote Image](https://github.com/ThrillSeeker01/Django-CRUD-Application/blob/master/trainer_register/static/trainer_register/images/Screen2.png)
-
-## Overview
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Django](https://img.shields.io/pypi/djversions/djangorestframework?color=%20green&label=Django%20Version%3A)](https://www.djangoproject.com/)
 
